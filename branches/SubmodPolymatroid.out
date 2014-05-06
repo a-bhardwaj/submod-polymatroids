@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{1. Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{1.1. Motivation}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{2. Linear 0-1 Knapsack Set}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{2.1. Cover Inequalities}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{2.2. Pack Inequalities}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{2.3. Generalizing the linear 0-1 knapsack}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{3. Generalizations to Submodular Knapsacks}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{3.1. Submodular functions and Extended Polymatroids}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{3.2. Valid Inequalities for Kf}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{3.3. Strengthening the valid inequalities via Extensions}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{3.4. Lifted Submodular Cover Inequalities}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.5}{3.5. Sequence Independent Bounds on Lifting Coefficients}{section.3}% 12
+\BOOKMARK [1][-]{section*.4}{References}{}% 13

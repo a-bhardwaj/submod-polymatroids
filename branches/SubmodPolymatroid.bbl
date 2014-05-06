@@ -1,0 +1,256 @@
+\begin{thebibliography}{10}
+
+\bibitem{Ahmed2011}
+Shabbir Ahmed and Alper Atamt\"{u}rk.
+\newblock Maximizing a class of submodular utility functions.
+\newblock {\em Mathematical Programming}, 128:149--169, 2011.
+\newblock 10.1007/s10107-009-0298-1.
+
+\bibitem{Atamturk2003}
+Alper Atamt\"{u}rk.
+\newblock On the facets of the mixed-integer knapsack polyhedron.
+\newblock {\em Mathematical Programming}, 98:145--175, 2003.
+\newblock 10.1007/s10107-003-0400-z.
+
+\bibitem{Atamturk04}
+Alper Atamt\"{u}rk.
+\newblock Sequence independent lifting for mixed-integer programming.
+\newblock {\em Operations Research}, 52(3):pp. 487--490, 2004.
+
+\bibitem{Atamturk2005}
+Alper Atamt\"{u}rk.
+\newblock Cover and pack inequalities for (mixed) integer programming.
+\newblock {\em Annals of Operations Research}, 139:21--38, 2005.
+\newblock 10.1007/s10479-005-3442-1.
+
+\bibitem{Atamturk2013}
+Alper Atamt\"{u}rk, Laurent~Flindt Muller, and David Pisinger.
+\newblock Separation and extension of cover inequalities for conic quadratic
+  knapsack constraints with generalized upper bounds.
+\newblock {\em INFORMS Journal on Computing}, 25(3):420--431, 2013.
+
+\bibitem{Atamturk2009333}
+Alper Atamt\"{u}rk and Vishnu Narayanan.
+\newblock The submodular knapsack polytope.
+\newblock {\em Discrete Optimization}, 6(4):333 -- 344, 2009.
+
+\bibitem{Atamturk2010}
+Alper Atamt\"{u}rk and Vishnu Narayanan.
+\newblock Conic mixed-integer rounding cuts.
+\newblock {\em Mathematical Programming}, 122:1--20, 2010.
+\newblock 10.1007/s10107-008-0239-4.
+
+\bibitem{Balas1975}
+Egon Balas.
+\newblock Facets of the knapsack polytope.
+\newblock {\em Mathematical Programming}, 8:146--164, 1975.
+\newblock 10.1007/BF01580440.
+
+\bibitem{Balas1978}
+Egon Balas and Eitan Zemel.
+\newblock Facets of the knapsack polytope from minimal covers.
+\newblock {\em SIAM Journal on Applied Mathematics}, 34(1):pp. 119--148, 1978.
+
+\bibitem{Balas1984}
+Egon Balas and Eitan Zemel.
+\newblock Lifting and complementing yields all the facets of positive zero-one
+  programming polytopes.
+\newblock In R.~W. et~al. Cottle, editor, {\em Proceedings of the International
+  Conference on Mathematical Programming, Rio de Janeiro, 1981}, pages 13--24.
+  1984.
+
+\bibitem{Ben-Tal2000}
+Aharon Ben-Tal and Arkadi Nemirovski.
+\newblock Robust solutions of linear programming problems contaminated with
+  uncertain data.
+\newblock {\em Mathematical Programming}, 88:411--424, 2000.
+\newblock 10.1007/PL00011380.
+
+\bibitem{Ben-Tal2002}
+Aharon Ben-Tal and Arkadi Nemirovski.
+\newblock Robust optimization - methodology and applications.
+\newblock {\em Mathematical Programming}, 92:453--480, 2002.
+\newblock 10.1007/s101070100286.
+
+\bibitem{Bertsimas2005}
+Dimitris Bertsimas and Ioana Popescu.
+\newblock Optimal inequalities in probability theory: A convex optimization
+  approach.
+\newblock {\em SIAM J. on Optimization}, 15:780--804, March 2005.
+
+\bibitem{Bretthauer2002}
+Kurt~M Bretthauer and Bala Shetty.
+\newblock The nonlinear knapsack problem – algorithms and applications.
+\newblock {\em European Journal of Operational Research}, 138(3):459 -- 472,
+  2002.
+
+\bibitem{Cezik2005}
+Mehmet~T. \c{C}ezik and Garud Iyengar.
+\newblock Cuts for mixed 0-1 conic programming.
+\newblock {\em Mathematical Programming}, 104:179--202, 2005.
+\newblock 10.1007/s10107-005-0578-3.
+
+\bibitem{Charnes1963}
+Abraham Charnes and William~W. Cooper.
+\newblock Deterministic equivalents for optimizing and satisficing under chance
+  constraints.
+\newblock {\em Operations Research}, 11(1):pp. 18--39, 1963.
+
+\bibitem{edmonds03}
+Jack Edmonds.
+\newblock Submodular functions, matroids, and certain polyhedra.
+\newblock In Michael J\"{u}nger, Gerhard Reinelt, and Giovanni Rinaldi,
+  editors, {\em Combinatorial Optimization - Eureka, You Shrink!}, volume 2570
+  of {\em Lecture Notes in Computer Science}, pages 11--26. Springer Berlin
+  Heidelberg, 2003.
+
+\bibitem{Escudero2003211}
+Laureano~F. Escudero, Araceli Gar\'{i}n, and Gloria P\'{e}rez.
+\newblock An o(n log(n)) procedure for identifying facets of the knapsack
+  polytope.
+\newblock {\em Operations Research Letters}, 31(3):211 -- 218, 2003.
+
+\bibitem{Ghaoui2003}
+Laurent~El Ghaoui, Maksim Oks, and Francois Oustry.
+\newblock Worst-case value-at-risk and robust portfolio optimization: A conic
+  programming approach.
+\newblock {\em Operations Research}, 51(4):543--556, 2003.
+
+\bibitem{Gomory1969451}
+Ralph~E. Gomory.
+\newblock Some polyhedra related to combinatorial problems.
+\newblock {\em Linear Algebra and its Applications}, 2(4):451 -- 558, 1969.
+
+\bibitem{Gu1999b}
+Zonghao Gu, George~L. Nemhauser, and Martin W.~P. Savelsbergh.
+\newblock Lifted cover inequalities for 0-1 integer programs: Complexity.
+\newblock {\em INFORMS Journal on Computing}, 11(1):117--123, 1999.
+
+\bibitem{Gu1998}
+Zonghao Gu, George~L Nemhauser, and Martin~WP Savelsbergh.
+\newblock Lifted cover inequalities for 0-1 integer programs: Computation.
+\newblock {\em INFORMS Journal on Computing}, 10(4):427--437, 1998.
+
+\bibitem{Gu1999a}
+Zonghao Gu, George~L. Nemhauser, and Martin~W.P. Savelsbergh.
+\newblock Lifted flow cover inequalities for mixed 0-1 integer programs.
+\newblock {\em Mathematical Programming}, 85:439--467, 1999.
+\newblock 10.1007/s101070050067.
+
+\bibitem{Gu2000}
+Zonghao Gu, George~L. Nemhauser, and Martin~W.P. Savelsbergh.
+\newblock Sequence independent lifting in mixed integer programming.
+\newblock {\em Journal of Combinatorial Optimization}, 4:109--129, 2000.
+\newblock 10.1023/A:1009841107478.
+
+\bibitem{Hammer1975}
+Peter~L. Hammer, Ellis~L. Johnson, and Uri~N. Peled.
+\newblock Facet of regular 0-1 polytopes.
+\newblock {\em Mathematical Programming}, 8:179--206, 1975.
+\newblock 10.1007/BF01580442.
+
+\bibitem{Helmberg2000}
+Christoph Helmberg, Franz Rendl, and Robert Weismantel.
+\newblock A semidefinite programming approach to the quadratic knapsack
+  problem.
+\newblock {\em Journal of Combinatorial Optimization}, 4:197--215, 2000.
+\newblock 10.1023/A:1009898604624.
+
+\bibitem{Hochbaum1995}
+Dorit~S. Hochbaum.
+\newblock A nonlinear knapsack problem.
+\newblock {\em Operations Research Letters}, 17(3):103 -- 110, 1995.
+
+\bibitem{Johnson198118}
+Ellis~L. Johnson and Manfred~W. Padberg.
+\newblock A note of the knapsack problem with special ordered sets.
+\newblock {\em Operations Research Letters}, 1(1):18 -- 22, 1981.
+
+\bibitem{Kellerer2004}
+Hans Kellerer, Ulrich Pferschy, and David Pisinger.
+\newblock {\em Knapsack Problems}.
+\newblock Springer, 2004.
+
+\bibitem{Louveaux07}
+Quentin Louveaux and LaurenceA. Wolsey.
+\newblock Lifting, superadditivity, mixed integer rounding and single node flow
+  sets revisited.
+\newblock {\em Annals of Operations Research}, 153(1):47--77, 2007.
+
+\bibitem{Marchand99}
+Hugues Marchand and Laurence~A. Wolsey.
+\newblock The 0-1 knapsack problem with a single continuous variable.
+\newblock {\em Mathematical Programming}, 85(1):15--33, 1999.
+
+\bibitem{Martello1990}
+Silvano Martello and Paolo Toth.
+\newblock {\em Knapsack Problems: Algorithms and Computer Implementations}.
+\newblock John Wiley \& Sons, Inc. New York, 1990.
+
+\bibitem{Morin1976}
+Thomas~L. Morin and Roy~E. Marsten.
+\newblock An algorithm for nonlinear knapsack problems.
+\newblock {\em Management Science}, 22(10):pp. 1147--1158, 1976.
+
+\bibitem{Nemhauser1994}
+George~L. Nemhauser and Pamela~H. Vance.
+\newblock Lifted cover facets of the 0-1 knapsack polytope with gub
+  constraints.
+\newblock {\em Operations Research Letters}, 16(5):255 -- 263, 1994.
+
+\bibitem{Padberg75}
+Manfred~W. Padberg.
+\newblock A note on zero-one programming.
+\newblock {\em Operations Research}, 23(4):833--837, 1975.
+
+\bibitem{Padberg73}
+ManfredW. Padberg.
+\newblock On the facial structure of set packing polyhedra.
+\newblock {\em Mathematical Programming}, 5(1):199--215, 1973.
+
+\bibitem{JP2002}
+Jean-Philippe~P. Richard, Jr~Farias, Ismael~R., and George~L. Nemhauser.
+\newblock Lifted inequalities for 0-1 mixed integer programming: Basic theory
+  and algorithms.
+\newblock In William~J. Cook and Andreas~S. Schulz, editors, {\em Integer
+  Programming and Combinatorial Optimization}, volume 2337 of {\em Lecture
+  Notes in Computer Science}, pages 161--175. Springer Berlin Heidelberg, 2002.
+
+\bibitem{Schrijver2003}
+Alexander Schrijver.
+\newblock {\em Combinatorial Optimization - Polyhedra and Efficiency}.
+\newblock Springer-Verlag, Berlin, 2003.
+
+\bibitem{Sherali95}
+H.~Sherali and Y.~Lee.
+\newblock Sequential and simultaneous liftings of minimal cover inequalities
+  for generalized upper bound constrained knapsack polytopes.
+\newblock {\em SIAM Journal on Discrete Mathematics}, 8(1):133--153, 1995.
+
+\bibitem{Weismantel97}
+Robert Weismantel.
+\newblock On the 0/1 knapsack polytope.
+\newblock {\em Mathematical Programming}, 77(3):49--68, 1997.
+
+\bibitem{Wolsey77}
+L.~A. Wolsey.
+\newblock Valid inequalities and superadditivity for 0-1 integer programs.
+\newblock {\em Mathematics of Operations Research}, 2(1):pp. 66--77, 1977.
+
+\bibitem{Wolsey1975}
+Laurence~A. Wolsey.
+\newblock Faces for a linear inequality in 0-1 variables.
+\newblock {\em Mathematical Programming}, 8:165--178, 1975.
+\newblock 10.1007/BF01580441.
+
+\bibitem{Zemel78}
+Eitan Zemel.
+\newblock Lifting the facets of zero-one polytopes.
+\newblock {\em Mathematical Programming}, 15(1):268--277, 1978.
+
+\bibitem{Zemel89}
+Eitan Zemel.
+\newblock Easily computable facets of the knapsack polytope.
+\newblock {\em Mathematics of Operations Research}, 14(4):pp. 760--764, 1989.
+
+\end{thebibliography}

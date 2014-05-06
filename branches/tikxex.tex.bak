@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+    \begin{scope}[thick,font=\scriptsize]
+    % Axes:
+    % Are simply drawn using line with the `->` option to make them arrows:
+    % The main labels of the axes can be places using `node`s:
+    \draw [->] (0,0) -- (14,0) node [above left]  {$a$};
+    \draw [->] (0,0) -- (0,7) node [below right] {$\psi(a)$};
+    \draw[dashed, gray] (1,6.75) -- (1.8,6.75);
+    \draw (0.43,6.2) node {$\Lambda(a)$};
+    \draw[line width=1pt, lightgray] (1,6.2) -- (1.8,6.2);
+
+    % Axes labels:
+    % Are drawn using small lines and labeled with `node`s. The placement can be set using options
+    \iffalse% Single
+    % If you only want a single label per axis side:
+    \draw (1,-3pt) -- (1,3pt)   node [above] {$1$};
+    \draw (-3pt,1) -- (3pt,1)   node [right] {$i$};
+    \else% Multiple
+    % If you want labels at every unit step:
+    \foreach \n in {0,1,2,3}{%
+        \draw (2.5*\n,-1pt) -- (2.5*\n,1pt)   node [below] {$\bar{A}_{\n}$};
+    }
+
+    \draw[line width=1pt, lightgray] (0,0) -- (1.5,0);
+    \draw (11,-1pt) -- (11,1pt)   node [below] {$\bar{A}_{m} - \delta$};
+    \draw[line width=1pt, lightgray] (9,4) -- (10,4);
+    \draw[line width=1pt, lightgray, ->] (11,6) -- (13.5,6);
+    \draw (12,-1pt) -- (12,1pt)   node [below] {$\bar{A}_{m}$};
+    \foreach \n in {1,2,3}{%
+        \draw (2.5*\n-1,-1pt) -- (2.5*\n-1,1pt)   node [below] {$\bar{A}_{\n} - \delta$};
+        \draw[thick,fill=black] (2.5*\n-1,\n) circle (1.5pt);
+        \draw[thick,fill=white] (2.5*\n-1,\n-1) circle (1.5pt);
+        \draw[line width=1pt, lightgray] (2.5*\n - 1,\n) -- (2.5*\n + 1.5,\n);
+    }
+    \foreach \n in {0,1,2,3}{%
+        \draw[dashed,gray](2.5*\n,\n) -- (2.5*\n + 1.5,\n+1);
+        \draw[dashed,gray](2.5*\n + 1.5,\n+1) -- (2.5*\n + 2.5,\n+1);
+    }
+
+    \draw	(10.3,5.4) node{$\cdot$};
+    \draw	(10.3,5.1) node{$\cdot$};
+    \draw	(10.3,4.8) node{$\cdot$};
+    \draw	(10.3,4.5) node{$\cdot$};
+
+    \draw[thick,fill=black] (9,4) circle (1.5pt);
+    \draw[thick,fill=white] (9,3) circle (1.5pt);
+    \draw[thick,fill=black] (11,6) circle (1.5pt);
+
+    \draw[dashed,gray](10.7,5.8) -- (11,6);
+    \draw[dashed,gray](11,6) -- (13.5,6);
+    \fi
+    \draw	(8,-4pt) node{$\cdot$};
+    \draw	(8.5,-4pt) node{$\cdot$};
+    \draw	(9,-4pt) node{$\cdot$};
+    \draw	(9.5,-4pt) node{$\cdot$};
+    \draw	(10,-4pt) node{$\cdot$};
+    \end{scope}
+%    % The circle is drawn with `(x,y) circle (radius)`
+%    % You can draw the outer border and fill the inner area differently.
+%    % Here I use gray, semitransparent filling to not cover the axes below the circle
+%    \path [draw=none,fill=gray,semitransparent] (+1,-1) circle (3);
+%    % Place the equation into the circle:
+%    \node [below right,darkgray] at (+1,-1) {$|z-1+i| \leq 3$};
+\end{tikzpicture}
+\end{document} 

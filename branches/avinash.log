@@ -1,0 +1,17 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.5.2)  2 MAY 2014 12:46
+entering extended mode
+**C:/Users/Avinash/Dropbox/Submodular*Functions*and*Extended*Polymatroids/Gener
+al*Submodular/avinash.sty
+
+("C:/Users/Avinash/Dropbox/Submodular Functions and Extended Polymatroids/Gener
+al Submodular/avinash.sty"
+! Undefined control sequence.
+l.1 \usepackage
+               {optprog}
+? 
+! Emergency stop.
+l.1 \usepackage
+               {optprog}
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

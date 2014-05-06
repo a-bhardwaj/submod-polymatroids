@@ -1,0 +1,149 @@
+\usepackage{optprog}
+\usepackage[dvips]{epsfig}
+\usepackage[dvips]{graphicx}
+\usepackage{color}
+\usepackage{soul}
+\usepackage{setspace}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{bbold}
+\usepackage{caption}
+\usepackage{lineno}
+\usepackage[strict]{changepage}
+\usepackage{MnSymbol,marvosym}
+\usepackage[ruled]{algorithm}
+\usepackage{lscape,framed}
+\usepackage{rotating}
+\usepackage{tikz,xifthen}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{algpseudocode}
+\usepackage{geometry}
+\usepackage{verbatim} %for multiline comments with \begin{comment}
+\usepackage{ctable,multirow,subfigure,enumitem}
+\usepackage[pdftex]{hyperref}
+\parindent=0pt
+\parskip=10pt
+\hyphenpenalty = 10000
+\hypersetup{
+colorlinks,%
+citecolor=black,%
+filecolor=black,%
+linkcolor=black,%
+urlcolor=black
+}
+
+%the next set of commands are for representing the different number sets
+% for example, instead of writing \mathbb{R}, \R will do
+\DeclareSymbolFont{AMSb}{U}{msb}{m}{n}
+\DeclareMathSymbol{\N}{\mathbin}{AMSb}{"4E}
+\DeclareMathSymbol{\Z}{\mathbin}{AMSb}{"5A}
+\DeclareMathSymbol{\R}{\mathbin}{AMSb}{"52}
+\DeclareMathSymbol{\Q}{\mathbin}{AMSb}{"51}
+\DeclareMathSymbol{\I}{\mathbin}{AMSb}{"49}
+\DeclareMathSymbol{\C}{\mathbin}{AMSb}{"43}
+\DeclareMathOperator{\conv}{conv}
+
+\newtheorem{thm}{Theorem}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{claim}[thm]{Claim}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{obs}[thm]{Observation}
+\newtheorem{conj}{Conjecture}
+
+\theoremstyle{definition}
+\newtheorem{dfn}{Definition}
+\newtheorem*{example}{Example}
+\newtheorem{problem}{Open Problem}
+\newtheorem{rem}{Remark}
+\newtheorem{assumption}{Assumption}
+
+%add desired commands here
+\newcommand\ignore[1]{}
+\newcommand{\RR}{\ensuremath{\mathbb{R}}}
+\newcommand\Rnn{\R_{\ge0}}
+\newcommand\Rsym[1]{\R_\mathsf{sym}^{#1 \times #1}}
+\newcommand\Snn{\mathcal{S}_{\ge 0}}
+\newcommand\set[2]{\left\{ {#1} \ : \ {#2} \right\}}
+\newcommand{\abs}[1]{|#1|} % for absolute value
+\newcommand{\norm}[1]{\parallel#1\parallel} % for the norm of a vector
+\newcommand\ceil[1]{\left\lceil{#1}\right\rceil}
+\newcommand\floor[1]{\left\lfloor{#1}\right\rfloor}
+\newcommand\x{\mathbf{x}}
+\newcommand\y{\mathbf{y}}
+\newcommand\Y{\mathbf{Y}}
+\newcommand{\K}{\mathcal K}
+\newcommand{\F}{\ensuremath{{\mathcal F}}}
+\newcommand{\REV}[1]{#1}
+\newcommand\z{\mathbf{z}}
+\newcommand{\lc}{\preccurlyeq}
+\newcommand\p{\mathbf{p}}
+\renewcommand\P{\mathcal{P}}
+\newcommand\q{\mathbf{q}}
+\newcommand{\stcomp}[1]{{#1}^{\mathsf{C}}}
+\newcommand{\lprelax}{\operatorname{relax}}
+\renewcommand\r{\mathbf{r}}
+\renewcommand\a{\mathbf{a}}
+\renewcommand\b{\mathbf{b}}
+\renewcommand\v{\mathbf{v}}
+\newcommand\id{\mathrm{Id}}
+\newcommand\cone{\mathrm{cone}}
+\newcommand\define{\,:=\,}
+\newcommand\inset{\,\in\,}
+\renewcommand\implies{\hspace{3mm}\Rightarrow\hspace{3mm}}
+\newcommand\relint{\mathrm{relint}}
+\renewcommand\setminus{\,\backslash\,}
+\newcommand\bs[1]{\boldsymbol{#1}}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand{\refname}{Bibliography}
+\newcommand\binset{\{0,1\}}
+\newcommand\sm{\setminus}
+\newcommand\update{\leftarrow}
+\newcommand{\solver}[1]{$\text{\texttt{#1}}^\copyright\,$}
+\newcommand{\benn}{\begin{equation}\nonumber}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bpi}{\boldsymbol\pi}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\atam}{Atamt\"{u}rk }
+\newcommand{\tbc}{\textit{To be continued...}}
+\newcommand{\tba}{\textit{To be added...}}
+\newcommand{\revise}[1]{\textcolor{red}{#1}}
+\renewcommand{\refname}{References}
+
+\topmargin=-0.5in      %top margin is 1/2 inch (note negative value)
+\oddsidemargin=0.1in    %left margin is 1 inch on right-hand pages
+\evensidemargin=0.1in   %same for left-hand pages in two sided
+\textwidth=6.5in      %leaves 1 inch for the right margin
+\textheight=9in       %9 inches reserved for the text.
+
+
+\def\BCOLHeader {
+\begin{center}
+\vspace*{-2.5cm}
+\begin{tikzpicture}%
+             \node [opacity=0.1]{\includegraphics[width=5.38cm]{ucbseal_line_k}};%
+  \end{tikzpicture}
+\vspace*{1cm}
+\end{center}
+\begin{textblock}{8}(4,2.3)
+\begin{center}
+{\bfseries \Large BCOL RESEARCH REPORT}\\[3mm]
+Industrial Engineering \& Operations Research\\
+University of California, Berkeley, CA, $94709-1777$
+\end{center}
+\end{textblock}
+}
+
+\newcommand{\funding}[1][\@empty]{%
+\ifx\@empty#1  {}  \else  {\footnotetext{This research has been supported, in part, by #1}}  \fi
+}
+
+\newcommand\affiliation[2] {
+\footnotetext{#1:#2}
+}
+
+\newcommand{\key}[1]{{\scriptsize\textsl{Keywords} : #1}}
